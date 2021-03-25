@@ -79,7 +79,7 @@ public:
     }
     
     bool remove(T element) {
-        //Removes all instances of element
+        // Removes all instances of element
         
         bool found = false;
         ListNode* tpprev = NULL;
