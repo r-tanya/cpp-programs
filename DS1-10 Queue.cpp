@@ -91,6 +91,7 @@ int main() {
     Queue<int> myq;
 
     for (int i = 1; i < 7; i++) myq.enqueue(i);
+    myq.print();
     for (int i = 1; i < 7; i++) cout << myq.dequeue() << endl;
 
     system("pause");
